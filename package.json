@@ -4,7 +4,9 @@
   "main": "dist/main.js",
   "scripts": {
     "start": "npm run build && electron .",
-    "build": "tsc"
+    "build": "tsc",
+    "build:sass": "sass src/styles.scss dist/styles.css",
+    "watch:sass": "sass --watch src/styles.scss dist/styles.css"
   },
   "keywords": [],
   "author": "Log",
@@ -15,6 +17,7 @@
     "@types/node": "^22.13.4",
     "electron": "^34.2.0",
     "electron-packager": "^17.1.2",
+    "sass": "^1.85.0",
     "typescript": "^5.7.3"
   }
 }

@@ -1,0 +1,39 @@
+$primary-color: #ffffff;
+$background-color: #000000;
+$text-color: white;
+
+@font-face {
+  font-family: "Univers Condensed";
+  src: url("./assets/fonts/universcondensed_medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Univers Condensed";
+  src: url("./assets/fonts/universcondensed_bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Univers Condensed";
+  src: url("./assets/fonts/universcondensed_mediumitalic.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  font-family: "Univers Condensed", sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: $background-color;
+  color: $text-color;
+}
+button {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}

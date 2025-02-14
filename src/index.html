@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTS Radio Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        button {
+            font-size: 16px;
+            padding: 10px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>NTS Radio</h1>
+    <button id="playNTS1">Play NTS 1</button>
+    <button id="playNTS2">Play NTS 2</button>
+    <button id="stop">Stop</button>
+
+    <audio id="audioPlayer" controls style="display: none;"></audio>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

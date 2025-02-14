@@ -1,0 +1,4 @@
+node_modules/
+dist/
+*.log
+nts-linux-linux-x64/

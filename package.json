@@ -1,0 +1,20 @@
+{
+  "name": "nts-linux",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "npm run build && electron .",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Log",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/electron": "^1.4.38",
+    "@types/node": "^22.13.4",
+    "electron": "^34.2.0",
+    "electron-packager": "^17.1.2",
+    "typescript": "^5.7.3"
+  }
+}
